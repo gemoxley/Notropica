@@ -1,0 +1,26 @@
+    body {
+    background-color: #65C0F8;
+  }
+  
+    h1 {
+    color: white;
+  }
+
+    .erica-one-regular {
+    font-family: "Erica One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .delius-unicase-regular {
+    font-family: "Delius Unicase", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .delius-unicase-bold {
+    font-family: "Delius Unicase", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
