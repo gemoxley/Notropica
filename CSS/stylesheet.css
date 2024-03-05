@@ -31,11 +31,12 @@
   .box {
     max-width: 1290px;
     max-height: 670;
-    display: flex;
     display: grid;
-    justify-content: center;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    grid-gap: 100px 100px;
+    justify-content: stretch;
     background-color: white;
-    flex-flow: row wrap;
     border-radius: 25px;
     border: #65C0F8;
     border-style: solid;
