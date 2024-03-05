@@ -8,7 +8,23 @@
     font-weight: 400;
     font-style: normal;
     font-size: 128pt;
+    margin: auto;
+    text-align: center;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: #65C0F8;
   }
+
+  p {
+    color: white;
+    font-family: "Delius Unicase", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36pt;
+    margin: auto;
+    text-align: center;
+  }
+
 
     .erica-one-regular {
     font-family: "Erica One", sans-serif;
@@ -29,11 +45,11 @@
   }
 
   .box {
-    max-width: 1290px;
-    max-height: 670;
+    margin: auto;
+    max-width: 50%;
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-gap: 100px 100px;
     justify-content: stretch;
     background-color: white;
@@ -43,7 +59,47 @@
     border-width: 5px;
   }
 
+  .box_style {
+    margin: auto;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 25px;
+    background-color: white;
+    border-radius: 25px;
+    border: #65C0F8;
+    border-style: solid;
+    border-width: 5px;
+  }
+
+  #style_img {
+    width: 50%;
+  }
+
   .selector {
     margin: 20px;
+  }
+
+  #style {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .flower_bg{
+    background-image: url("../IMG/Flowers.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+  }
+
+  .hidden_bg{
+    background-image: url("../IMG/Background\ Flowers.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
   }
   
