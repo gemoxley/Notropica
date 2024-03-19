@@ -1,7 +1,6 @@
     body {
     background-color: #65C0F8;
   }
-  
     h1 {
     color: white;
     font-family: "Erica One", sans-serif;
@@ -14,7 +13,6 @@
     -webkit-text-stroke-width: 5px;
     -webkit-text-stroke-color: #65C0F8;
   }
-
   p {
     color: white;
     font-family: "Delius Unicase", cursive;
@@ -24,26 +22,21 @@
     margin: auto;
     text-align: center;
   }
-
-
     .erica-one-regular {
     font-family: "Erica One", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
-
   .delius-unicase-regular {
     font-family: "Delius Unicase", cursive;
     font-weight: 400;
     font-style: normal;
   }
-  
   .delius-unicase-bold {
     font-family: "Delius Unicase", cursive;
     font-weight: 700;
     font-style: normal;
   }
-
   .box {
     margin: auto;
     align-items: center;
@@ -56,8 +49,8 @@
     background-color: white;
     border-radius: 25px;
     border: 5px solid #65C0F8;
+    z-index: 1;
   }
-
   .box_style {
     margin: auto;
     width: 60%;
@@ -72,37 +65,40 @@
     border-style: solid;
     border-width: 5px;
   }
-
+  .unadded {
+    position: relative;
+    z-index: 2;
+  }
   .unadded:hover .text-box {
     visibility: visible;
     opacity: 1;
+    z-index: 2;
   }
-
   .text-box {
     visibility: hidden;
     opacity: 0;
+    z-index: 2;
     position: absolute;
     background-color: white;
-    border: #65C0F8;
-    border-style: solid;
-    border-width: 5px;
+    border: 5px solid #65C0F8;
     border-radius: 25px;
-    margin: 25 px;
     padding: 25px;
     font-family: "Delius Unicase", cursive;
     font-weight: 400;
+    font-size: 8pt;
     font-style: bold;
     color: #65C0F8;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    max-width: 80%;
   }
-
   #style_img {
     width: 50%;
   }
-
   .selector {
     margin: 20px;
   }
-
   #style {
     width: 85%;
     margin: auto;
@@ -111,21 +107,18 @@
     flex-direction: row;
     justify-content: space-around;
   }
-
   .flower_bg{
     background-image: url("../IMG/Flowers.png");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0%;
   }
-
   .hidden_bg{
     background-image: url("../IMG/Background\ Flowers.png");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0%;
   }
-
   .head_box {
     margin: auto;
     width: 85%;
@@ -136,6 +129,14 @@
     background-color: white;
     border-radius: 25px;
     border: 5px solid #65C0F8;
+    z-index: 1;
   }
-
-  
+  h3 {
+    color: white;
+    font-family: "Delius Unicase", cursive;
+    font-weight: 400;
+    font-size: 18pt;
+    text-align: center;
+    margin: 50 px;
+    padding: 50 px;
+  }
