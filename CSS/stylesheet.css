@@ -99,6 +99,9 @@
   .selector {
     margin: 20px;
   }
+  .selector:hover {
+    transform: scale(1.1); 
+    }
   #style {
     width: 85%;
     margin: auto;
